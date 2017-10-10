@@ -1,5 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Browser Connection" displayType="NONE" />
-  </component>
-</application>
