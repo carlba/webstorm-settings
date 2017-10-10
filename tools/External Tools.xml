@@ -1,0 +1,23 @@
+<toolSet name="External Tools">
+  <tool name="Prepare for debug" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/bsdev/safepath-family-web/prepare/prepare.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/bsdev/safepath-family-web/prepare" />
+    </exec>
+  </tool>
+  <tool name="Mapbox to Google" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/bsdev/safepath-family-web/prepare/mapbox_to_google.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/bsdev/safepath-family-web/prepare" />
+    </exec>
+  </tool>
+  <tool name="Google to Mapbox" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/bsdev/safepath-family-web/prepare/google_to_mapbox.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/bsdev/safepath-family-web/prepare" />
+    </exec>
+  </tool>
+</toolSet>
