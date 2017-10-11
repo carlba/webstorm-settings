@@ -9,6 +9,7 @@
     <browser id="58105247-6489-4030-9cd2-841518d0067b" name="Chromium" family="CHROME" path="/Applications/Chromium.app">
       <settings>
         <command-line-options>--disable-web-security --user-data-dir</command-line-options>
+        <use-custom-profile>true</use-custom-profile>
         <user-data-dir>$APPLICATION_CONFIG_DIR$/chrome-user-data</user-data-dir>
       </settings>
     </browser>
